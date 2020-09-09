@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: #e6e4e4;
+}
+#loginTodo{
+    margin: 150px auto auto auto;
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #cdcaca;
+}
+#loginTodo a{
+    font-size: 18px;
+    border-color: #6C757D;
+    text-align: center;
+    color: white;
+}
+#loginTodo ul{
+    width: 100%;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+}
+#loginTodo li{
+    text-align: center;
+    width: 20%;    
+    border-radius: 4px;
+}
+#loginTodo li a {
+    padding: 10px 5px 10px 5px;
+    font-size: 15px;
+}
+    button{
+    background-color: red;
+    float: right;
+    width: 100px;
+}
+/*@media only screen and (max-width : 740px) {
+    #loginTodo{
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    #loginTodo{
+    }
+}
+@media only screen and (max-width : 440px) {
+    #loginTodo{
+    }
+    #loginTodo li{
+        width: 19%;
+    }
+    #loginTodo a{
+        font-size: 11px;
+    }
+}*/

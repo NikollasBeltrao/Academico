@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/DAO/aulaDao.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/alunoLogado/components/disciplinasComponent.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/DAO/alunoDao.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/professorLogado/styles.css</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/professorLogado/components/horarioComponent.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/professorLogado/ProfessorLogadoPage.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/professorLogado/control/cadastrarChamada.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/DAO/alunoChamadaDao.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/VO/ChamadaVO.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/professorLogado/components/aulasComponent.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/diretorLogado/control/alterarAluno.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/DAO/chamadaDao.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/VO/AlunoChamadaVO.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/DAO/disciplinaAlunoDao.php</file>
+            <file>file:/C:/xampp/htdocs/ProjetoHelder/pages/professorLogado/control/cadastrarAlunoChamada.php</file>
+        </group>
+    </open-files>
+</project-private>

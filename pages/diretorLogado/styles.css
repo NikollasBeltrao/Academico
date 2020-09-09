@@ -1,0 +1,173 @@
+#pll li a {
+    color: gray;
+}
+#pll li a,
+#pll li a:hover, 
+#pll li a:focus { 
+    background-color: whitesmoke; 
+}
+
+#tbody th {
+    vertical-align: middle;
+}
+#tbody td{
+    vertical-align: middle;
+}
+#accordionSidebar li a {
+    margin-left: 15px;
+    border-radius: 20px 0px 0px 20px;
+    width: auto;
+    margin-bottom: 10px;    
+}
+.semfoco{    
+    background-color: #e24e42;      
+}
+.comfoco{
+    background-color: #F8F9FC;
+    color: black;    
+}
+.comfoco span{
+    color: gray;
+}
+.semfoco i:last-child{
+    font-size: 18px;
+    display: none;
+}
+#accordionSidebar li a i{
+    color: #EBBF59;
+}
+.comfoco i:last-child{
+    display: flex;
+    float: right;
+    margin-right: 0px;
+    margin-top: 3px; 
+}
+.sidebar{
+    background-color: #008f95;
+}
+#aviso{
+    background-color: rgba(255, 238, 118, 0.7);   
+    border: solid 1px rgba(255, 223, 0, 0.7);
+    border-radius: 3px;
+    height: auto;
+    padding: 5px;
+    color: black;
+    font-size: 14px;
+
+}
+#aviso p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#aviso strong{
+    margin-right: 3px;
+}
+#topo{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 25px;
+}
+#topo li{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 110px;
+    width: 110px;
+    margin-right: 10px;     
+    padding-top: 25px;
+}
+#topo li i{
+    font-size: 30px;
+    color: gray;
+    width: 100%;
+    border-radius: 10px;
+}  
+#topo li i:last-child{
+    display: none;
+} 
+#topo li.active{
+    background-color: #E24E42;
+    color: white;
+}
+#topo li.active i{
+    background-color: #E24E42;
+    color: #EBBF59;
+}
+#topo li.active i:last-child{
+    display: block;
+}
+#topo li a{
+    font-size: 14px;
+    margin-top: 7px;
+    width: 100%;
+}
+
+#quadroAviso{    
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    position: relative;
+
+}
+.notes{
+    width: 23%;
+    height: 170px;
+    background-color: #F8F09E;
+    border-radius: 4px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+.notes textarea{
+    height: 80%;
+    width: 100%;
+    margin: 0px;
+    border: none;
+    overflow: hidden;
+    background-color: #F8F09E;
+    border-radius: 4px;
+}
+
+.notes textarea:focus{
+    box-shadow: 0 0 0 0;
+    border: solid 2px #cfcfcf;
+    outline: 0;
+    overflow-y: auto;
+}
+.notes p{
+    height: 20%;
+    width: 100%;
+    margin: 0px;  
+    background-color: #F7E772;
+    border-radius: 4px;    
+}
+.notes p svg{
+    margin-top: 3px;
+    margin-left: 6px;
+    padding-top: 0px;
+    font-size: 30px;
+}
+.notes p svg:last-child{
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+    font-size: 19px;
+}
+.draggable {
+    position: relative;
+    transition: transform 0.3s linear z-index 0.3 linear;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.dragging {
+    transform: scale(1.1);
+    z-index: 999;
+}
+
+@media (max-width: 767px) {
+    #accordionSidebar li a i:last-child{
+        display: none;
+    }
+}
+
