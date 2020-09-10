@@ -20,7 +20,7 @@
 
     </head>
 
-    <body id="page-top" onload="iniciar()">
+    <body id="page-top"">
 
         <!-- Page Wrapper -->
         <div id="wrapper">
@@ -43,7 +43,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="teste.php">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Dashboard</span></a>
+                        <span>teste</span></a>
                 </li>
 
                 <!-- Divider -->
@@ -672,9 +672,6 @@
         <script src="js/demo/chart-area-demo.js"></script>
         <script src="js/demo/chart-pie-demo.js"></script>
         <script>
-            function iniciar(){
-                window.location.replace('./login/LoginPage.php');
-            }
             var ctxL = document.getElementById("lineChart").getContext('2d');
             var myLineChart = new Chart(ctxL, {
                 type: 'line',
