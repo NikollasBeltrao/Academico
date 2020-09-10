@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+    header('Location: login/LoginPage.php');
+?>
 <html lang="en">
 
     <head>
